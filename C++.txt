@@ -1,0 +1,192 @@
+                         Practical No. 1 
+
+Title: Write a program in C++ to print a table using a loop.
+Objective: To understand the working of loop.
+Theory: A loop in computer programming allows programmers to run a block of code repeatedly for a set number of times or until a particular condition is satisfied. Using loops allows developers to perform repetitive tasks with a high degree of automation and efficiency. There are primarily three kinds of loops, i.e., for, while, and do-while. In this article, we will focus our discussion on the for loop in C++.
+Before we begin, it is important to note that loops facilitate programmers to write less code by repeatedly running a block of code until a certain condition is met, which results in more concise and manageable programs. Besides that, loops offer developers a flexible and strong method for managing large amounts of data and carrying out complicated operations, enabling them to create more sophisticated applications.
+
+
+
+                                                 Practical No. 2 
+
+Title: Write a program in C++ to find area of circle
+Objective: To understand the classes and object.
+Theory:
+Everything in C++ is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and colour, and methods, such as drive and brake.
+A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
+Create a Class
+To create a class, use the class keyword:
+Example
+Create a class called "MyClass":
+class MyClass {       // The class
+  public:             // Access specifier
+    int myNum;        // Attribute (int variable)
+    string myString;  // Attribute (string variable)
+};
+Create an Object
+In C++, an object is created from a class. We have already created the class named MyClass, so now we can use this to create objects.
+To create an object of MyClass, specify the class name, followed by the object name.
+To access the class attributes (myNum and myString), use the dot syntax (.) on the object:
+
+
+
+                          Practical No. 3
+
+Title: Write a program in C++ to perform multiplication.
+Objective: To understand the classes and object.
+Theory: 
+Arithmetic operators in C++ are operators that perform basic mathematical operations such as addition, subtraction, multiplication, and division on numerical data types.
+C++ provides the following arithmetic operators:
+•	Addition Operator (+): Adds two operands.
+•	Subtraction Operator (-): Subtracts one operand from another.
+•	Multiplication Operator (*): Multiplies two operands.
+•	Division Operator (/): Divides one operand by another.
+•	Modulus Operator (%): Returns the remainder of a division operation.
+•	Increment Operator (++): Adds 1 to the operand.
+•	Decrement Operator (--): Subtracts 1 from the operand.
+
+This program calculates the product of two integers using a function called product(). In the product() function, two integer arguments a and b are passed, and their product is stored in c. Finally ,c is returned as the result of the function. In the main() function, product() is called with two arguments 4 and 5, and the result is printed on the console using cout. The output of this program would be 20, which is the product of 4 and 5.
+
+
+                        Practical No. 4
+
+Title: Write a program in C++ to find the bonus amount if given.
+Objective: To understand the use of if and else statement.
+Theory: 
+An if statement can be followed by an optional else if...else statement, which is very useful to test various conditions using single if...else if statement. When using if , else if , else statements there are few points to keep in mind.
+•	An if can have zero or one else's and it must come after any else if's.
+•	An if can have zero to many else if's and they must come before the else.
+
+The if and else statement evaluates the condition inside the parenthesis.
+ How if...else Statement Works
+
+
+
+                        Practical No. 5
+
+Title: Write a program in C++ to write fibonacci series
+Objective: To understand the use of arrays , function , classes and object.
+Theory: 
+C++ Arrays :
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+To declare an array, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store:
+string cars[4];
+FUNCTIONS:
+A function is a block of code which only runs when it is called.
+Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
+
+Create a Function
+C++ provides some pre-defined functions, such as main(), which is used to execute code. But you can also create your own functions to perform certain actions.
+To create (often referred to as declare) a function, specify the name of the function, followed by parentheses ():
+
+
+                       Practical No. 6
+
+Title: Write a program in C++ to print diamond pattern.
+Objective: To understand the working of nested loops.
+Theory: 
+A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+Syntax
+The syntax of a for loop in C++ is −
+for ( init; condition; increment ) {
+   statement(s);
+
+Nested Loops :
+It is also possible to place a loop inside another loop. This is called a nested loop.
+The "inner loop" will be executed one time for each iteration of the "outer loop":
+Example
+// Outer loop
+for (int i = 1; i <= 2; ++i) {
+  cout << "Outer: " << i << "\n"; // Executes 2 times
+
+  // Inner loop
+  for (int j = 1; j <= 3; ++j) {
+    cout << " Inner: " << j << "\n"; // Executes 6 times (2 * 3)
+  }
+}
+
+
+
+                        Practical No. 7
+
+Title: Write a program in C++ to print ( * ) pattern.
+Objective: To understand the working of loops and nested loops.
+Theory: 
+A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+Syntax
+The syntax of a for loop in C++ is −
+for ( init; condition; increment ) {
+   statement(s);
+
+Nested Loops :
+It is also possible to place a loop inside another loop. This is called a nested loop.
+The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+
+
+
+
+                        Practical No. 8
+
+Title: Write a program in C++ to print ( * ) pattern.
+Objective: To understand the working of loops and nested loops.
+Theory: 
+A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+Syntax
+The syntax of a for loop in C++ is −
+for ( init; condition; increment ) {
+   statement(s);
+
+Nested Loops :
+It is also possible to place a loop inside another loop. This is called a nested loop.
+The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+
+
+                        Practical No. 9
+
+Title: Write a program in C++ to show whether the number is odd or even.
+Objective: To understand class , object and conditional statement 
+Theory: 
+C++ Conditions and If Statements
+You already know that C++ supports the usual logical conditions from mathematics:
+•	Less than: a < b
+•	Less than or equal to: a <= b
+•	Greater than: a > b
+•	Greater than or equal to: a >= b
+•	Equal to a == b
+•	Not Equal to: a != b
+You can use these conditions to perform different actions for different decisions.
+C++ has the following conditional statements:
+•	Use if to specify a block of code to be executed, if a specified condition is true
+•	Use else to specify a block of code to be executed, if the same condition is false
+•	Use else if to specify a new condition to test, if the first condition is false
+•	Use switch to specify many alternative blocks of code to be executed
+
+
+
+                        Practical No. 10
+
+Title: Write a program in C++ displaying the greatest number among the three.
+Objective: To understand class , object and conditional statement .
+Theory:
+C++ if...else...else if statement
+The if...else statement is used to execute a block of code among two alternatives. However, if we need to make a choice between more than two alternatives, we use the if...else if...else statement.
+ 
+
+The else if Statement
+Use the else if statement to specify a new condition if the first condition is false.
+Syntax
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+
+
+
+
+
+
+
